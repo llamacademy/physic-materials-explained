@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/root-styles.uss?fileID=7433441132597879392&amp;guid=485ce55525634804e88ce7e792bb83e2&amp;type=3#root-styles" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(34, 34, 34);">
+        <ui:Label tabindex="-1" text="Ground" display-tooltip-when-elided="true" name="header" class="header" />
+        <ui:Slider picking-mode="Ignore" label="Static Friction" value="1" high-value="1" name="static-friction" show-input-field="true" />
+        <ui:Slider picking-mode="Ignore" label="Dynamic Friction" value="1" high-value="1" name="dynamic-friction" show-input-field="true" />
+        <ui:EnumField label="Friction Combine" type="UnityEngine.PhysicMaterialCombine, UnityEngine.PhysicsModule" name="friction-combine" />
+        <ui:Slider picking-mode="Ignore" label="Bounciness" value="1" high-value="1" name="bounciness" show-input-field="true" />
+        <ui:EnumField label="Bounciness Combine" type="UnityEngine.PhysicMaterialCombine, UnityEngine.PhysicsModule" name="bounciness-combine" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,9 +1,9 @@
 ﻿# Physic Materials, Explained
 
 This repository is intended to be a playground to see the impacts of changes to Physic Materials in Unity. 
-It was implemented in support of [this tutorial video](https://youtu.be/M4r5oS0VBh8) explaining Physic Materials.
+It was implemented in support of [this tutorial video](https://youtu.be/Z3TE8cejwzk) explaining Physic Materials.
 
-[![Youtube Tutorial](./Video%20Screenshot.jpg)](https://youtu.be/M4r5oS0VBh8)
+[![Youtube Tutorial](./Video%20Screenshot.jpg)](https://youtu.be/Z3TE8cejwzk)
 
 ## Quickstart
 In the demo scene there are two "scenarios" - balls on a flat plane, and boxes on a sloped plane.
@@ -30,6 +30,7 @@ Head over to the [LlamAcademy Patreon Page](https://patreon.com/llamacademy), jo
 * Iffy Obelus
 * Perry
 * Mustafa
+* Jerematic
 * YOUR NAME HERE!
 
 ### Supporters
